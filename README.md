@@ -13,6 +13,9 @@
   ## MOD2 Controls (Smaller Square)
    
    **W** -> Used for moving the box upwards.
+   
    **S** -> Used for moving the box to the downwards.
+   
    **D** -> Used for moving the box to the right.
+   
    **A** -> Used for moving the box to the left.
