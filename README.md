@@ -6,7 +6,7 @@
 
    **BACKSPACE** -> Switching between two modes
    
-  ##MOD1 Controls (Bigger Square)
+  ## MOD1 Controls (Bigger Square)
    
    **SPACE** -> Used for moving the bigger box to the right
    
