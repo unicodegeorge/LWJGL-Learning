@@ -1,8 +1,8 @@
 
 
-#CONTROLS
+# CONTROLS
 
-  ##Game Controls
+  ## Game Controls
 
    **BACKSPACE** -> Switching between two modes
    
@@ -10,7 +10,7 @@
    
    **SPACE** -> Used for moving the bigger box to the right
    
-  ##MOD2 Controls (Smaller Square)
+  ## MOD2 Controls (Smaller Square)
    
    **W** -> Used for moving the box upwards.
    **S** -> Used for moving the box to the downwards.
