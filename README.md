@@ -16,6 +16,8 @@
    
    **S** -> Used for moving the box to the downwards.
    
+   **A** -> Used for moving the box to the left.
+   
    **D** -> Used for moving the box to the right.
    
-   **A** -> Used for moving the box to the left.
+
