@@ -13,7 +13,6 @@
    
   ## MOD2 Controls (Smaller Square)
 ****
-   
    **W** -> Used for moving the box upwards.
    
    **S** -> Used for moving the box to the downwards.
@@ -24,9 +23,7 @@
 
 
 # UPDATES
-
 ****
-
 **17.02.2020** - Fixed diagonal movement.
 
 
