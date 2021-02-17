@@ -26,7 +26,7 @@
 
 # UPDATES
 ****
-**17.02.2020** - Fixed diagonal movement.
+**17.02.2021** - Fixed diagonal movement.
 
 
 
