@@ -21,6 +21,8 @@
    
    **D** -> Used for moving the box to the right.
 
+  _**Combining these keys is used for diagonal movement.**_
+
 
 # UPDATES
 ****
