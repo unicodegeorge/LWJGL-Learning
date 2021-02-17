@@ -164,7 +164,7 @@ public class Game {
                     .put(playerCube)
                     .flip();
             GL33.glBufferData(GL33.GL_ARRAY_BUFFER, ds, GL33.GL_STATIC_DRAW);
-        } else if (GLFW.glfwGetKey(window1, GLFW.GLFW_KEY_S) == GLFW.GLFW_PRESS) {
+        }  if (GLFW.glfwGetKey(window1, GLFW.GLFW_KEY_S) == GLFW.GLFW_PRESS) {
             playerCube[1] -= 0.0001;
             playerCube[4] -= 0.0001;
             playerCube[7] -= 0.0001;
@@ -175,7 +175,7 @@ public class Game {
                     .put(playerCube)
                     .flip();
             GL33.glBufferData(GL33.GL_ARRAY_BUFFER, ds, GL33.GL_STATIC_DRAW);
-        } else if (GLFW.glfwGetKey(window1, GLFW.GLFW_KEY_D) == GLFW.GLFW_PRESS) {
+        }  if (GLFW.glfwGetKey(window1, GLFW.GLFW_KEY_D) == GLFW.GLFW_PRESS) {
             playerCube[0] += 0.0001;
             playerCube[3] += 0.0001;
             playerCube[6] += 0.0001;
@@ -186,7 +186,7 @@ public class Game {
                     .put(playerCube)
                     .flip();
             GL33.glBufferData(GL33.GL_ARRAY_BUFFER, ds, GL33.GL_STATIC_DRAW);
-        } else if (GLFW.glfwGetKey(window1, GLFW.GLFW_KEY_A) == GLFW.GLFW_PRESS) {
+        } if (GLFW.glfwGetKey(window1, GLFW.GLFW_KEY_A) == GLFW.GLFW_PRESS) {
             playerCube[0] -= 0.0001;
             playerCube[3] -= 0.0001;
             playerCube[6] -= 0.0001;
@@ -198,26 +198,26 @@ public class Game {
                     .flip();
             GL33.glBufferData(GL33.GL_ARRAY_BUFFER, ds, GL33.GL_STATIC_DRAW);
             // TODO: Diagonal movement
-//        } else if(GLFW.glfwGetKey(window1, GLFW.GLFW_KEY_A) == GLFW.GLFW_PRESS && GLFW.glfwGetKey(window1, GLFW.GLFW_KEY_W) == GLFW.GLFW_PRESS) {
-//            playerCube[0] -= 0.0001;
-//            playerCube[3] -= 0.0001;
-//            playerCube[6] -= 0.0001;
-//            playerCube[9] -= 0.0001;
-//            playerCube[12] -= 0.0001;
-//            playerCube[15] -= 0.0001;
-//            playerCube[1] += 0.0001;
-//            playerCube[4] += 0.0001;
-//            playerCube[7] += 0.0001;
-//            playerCube[10] += 0.0001;
-//            playerCube[13] += 0.0001;
-//            playerCube[16] += 0.0001;
-//
-//            FloatBuffer ds = BufferUtils.createFloatBuffer(playerCube.length)
-//                    .put(playerCube)
-//                    .flip();
-//            GL33.glBufferData(GL33.GL_ARRAY_BUFFER, ds, GL33.GL_STATIC_DRAW);
-//        }
+        }  if(GLFW.glfwGetKey(window1, GLFW.GLFW_KEY_A) == GLFW.GLFW_PRESS && GLFW.glfwGetKey(window1, GLFW.GLFW_KEY_W) == GLFW.GLFW_PRESS) {
+            playerCube[0] -= 0.0001;
+            playerCube[3] -= 0.0001;
+            playerCube[6] -= 0.0001;
+            playerCube[9] -= 0.0001;
+            playerCube[12] -= 0.0001;
+            playerCube[15] -= 0.0001;
+            playerCube[1] += 0.0001;
+            playerCube[4] += 0.0001;
+            playerCube[7] += 0.0001;
+            playerCube[10] += 0.0001;
+            playerCube[13] += 0.0001;
+            playerCube[16] += 0.0001;
+
+            FloatBuffer ds = BufferUtils.createFloatBuffer(playerCube.length)
+                    .put(playerCube)
+                    .flip();
+            GL33.glBufferData(GL33.GL_ARRAY_BUFFER, ds, GL33.GL_STATIC_DRAW);
         }
+
             if (GLFW.glfwGetKey(window1, GLFW.GLFW_KEY_BACKSPACE) == GLFW.GLFW_PRESS) {
                 Thread.sleep(100);
                 wasdControl = !wasdControl;
